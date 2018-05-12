@@ -56,7 +56,8 @@ __C.TRAIN.MAX_AREA = 114688
 
 # Minibatch size (number of samples per round)
 __C.TRAIN.BATCH_SIZE = 16
-
+# The number of the attributes used in training
+__C.NUM_ATTR = 92
 # Use horizontally-flipped images during training?
 __C.TRAIN.USE_FLIPPED = True
 
